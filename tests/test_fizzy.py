@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 from __future__ import division
 import qiime.fizzy as fizzy 
-from unittest import TestCase, main
+from cogent.util.unit_test import TestCase, main
 import StringIO
 import numpy as np
 
