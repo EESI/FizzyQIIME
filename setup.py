@@ -264,7 +264,8 @@ setup(name='qiime',
                         'pyfeast == 1.1'],
       dependency_links=[
           'https://github.com/biocore/scikit-bio/archive/master.zip#egg=scikit-bio-0.0.0-dev',
-          'https://github.com/biocore/brokit/archive/master.zip#egg=brokit-0.0.0-dev'
+          'https://github.com/biocore/brokit/archive/master.zip#egg=brokit-0.0.0-dev',
+          'https://github.com/EESI/PyFeast'
       ],
       extras_require={'all': ['ipython', 'tornado', 'pyzmq', 'sphinx >= 0.3',
                               # the following are optional for pycogent, should
